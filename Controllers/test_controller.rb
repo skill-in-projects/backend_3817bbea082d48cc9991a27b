@@ -29,6 +29,7 @@ class TestController
 End
 
 
+
     def get_by_id(id)
         # Set search_path to public schema (required because isolated role has restricted search_path)
         set_search_path
