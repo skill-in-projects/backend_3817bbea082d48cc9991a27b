@@ -26,7 +26,7 @@ class TestController
     end
     # Do NOT catch generic Exception - let it bubble up to Sinatra error handler
     # PG::Error will be caught by Sinatra's error handler and sent to runtime error endpoint
-End
+end
 
 
 
